@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="navcontainer">
+        <div class="logo">RESUME BUILDER</div>
+        <div class="buttons">
+          <button class="reset">Reset</button>
+          <button class="download">Download</button>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="actionWindow">
+        <div class="above">
+          <h4>Action Window</h4>
+        </div>
+        <!-- dotted box starts -->
+        <div class="dottedbox">
+          <div class="click">
+            <p>Click Edit Button of any block in the template.</p>
+          </div>
+        </div>
+        <!-- dotted box ends -->
+
+        <div class="forms">
+          <form  class="interest hidden">
+            <div class="form-group">
+              <label for="">Interest 1
+            </label>
+              <input type="text" name="interest1
+              " placeholder="">
+              
+            </div>
+            <div class="form-group">
+              <label for="name">Interest 2
+              </label>
+              <input type="text" name="interest2" placeholder="e.g Olivia Wilson">
+              
+            </div>
+            <div class="form-group">
+              <label for="name">Interest 3
+              </label>
+              <input type="text" name="interest3" placeholder="e.g Olivia Wilson">
+              
+            </div>
+            <div class="form-group">
+              <label for="name">Interest 4
+              </label>
+              <input type="text" name="interest4" placeholder="e.g Olivia Wilson">
+              
+            </div>
+            <button class="formbtn">Close Form</button>
+            <!-- <button type="submit">Submit</button> -->
+          </form>
+          <form class="designation hidden">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" name="name" placeholder="e.g Olivia Wilson">
+              
+            </div>
+
+            <div class="form-group">
+              <label for="jobrole">Job Role</label>
+              <input type="text" name="jobrole" placeholder="e.g Software Engineer">
+            </div>
+
+            <button class="formbtn">Close Form</button>
+              <!-- <button type="submit">Submit</button> -->
+          </form>
+          <!-- designation form ends -->
+
+          <form class="description  hidden">
+            <div class="form-group">
+              <label for="para">About Me</label>
+              <input type="text" name="para" placeholder="e.g I am a full stack developer.">
+            </div>
+            <button class="formbtn">Close Form</button>
+              <!-- <button type="submit">Submit</button> -->
+          </form>
+          <!-- description form ends -->
+          
+          <form class="contactInfo  hidden">
+            <div class="form-group">
+              <label for="address">Address</label>
+              <input type="text" name="address" placeholder="e.g 44A Kabi Sukanta Sarani,Kol-78" />
+            </div>
+    
+            <div class="form-group">
+              <label for="emailid">Email ID</label>
+              <input type="text" name="emailid" placeholder="e.g oliwit@gmail.com" />
+            </div>
+    
+            <div class="form-group">
+              <label for="number">Phone Number</label>
+              <input type="number" name="number" placeholder="e.g 80690 78965" />
+            </div>
+    
+            <div class="form-group">
+              <label for="gitlink">Personal Site or Github link</label>
+              <input type="text" name="gitlink" placeholder="e.g github.com/oliwit" />
+            </div>
+             <button class="formbtn">Close Form</button>
+            <!-- <button type="submit">Submit</button> -->
+          </form>
+          <!-- contact Info form ends -->
+
+          <form class="education hidden ">
+            <div class="form-group">
+              <label for="startyr">Start year</label>
+              <input type="text" name="startyr" placeholder="e.g 2001" />
+            </div>
+    
+            <div class="form-group">
+              <label for="endyr">End Year</label>
+              <input type="text" name="endyr" placeholder="e.g 2005" />
+            </div>
+    
+            <div class="form-group">
+              <label for="university">University</label>
+              <input type="text" name="university" placeholder="e.g Bekhingham University,UK" />
+            </div>
+    
+            <div class="form-group">
+              <label for="course">Course</label>
+              <input type="text" name="course" placeholder="e.g B.Sc in Computer Science" />
+            </div>
+
+            
+            
+              <div class="form-group">
+                <label for="startyr">Start year</label>
+                <input type="text" name="startyr1" placeholder="e.g 2001" />
+              </div>
+      
+              <div class="form-group">
+                <label for="endyr">End Year</label>
+                <input type="text" name="endyr1" placeholder="e.g 2005" />
+              </div>
+      
+              <div class="form-group">
+                <label for="university">University</label>
+                <input type="text" name="university1" placeholder="e.g Bekhingham University,UK" />
+              </div>
+      
+              <div class="form-group">
+                <label for="course">Course</label>
+                <input type="text" name="course1" placeholder="e.g B.Sc in Computer Science" />
+              </div>
+              <button class="formbtn">Close Form</button>
+            <!-- <button>Add Block</button> -->
+            <!-- <button type="submit">Submit</button> -->
+          </form>
+          <!-- education ends -->
+          <form class="skills  hidden">
+            <div class="form-group">
+              <label for="skill1">Skill 1</label>
+              <input type="text" name="skill1" placeholder="enter name" />
+            </div>
+            
+            
+            <div class="form-group">
+              <label for="skill2">Skill 2</label>
+              <input type="text" name="skill2" placeholder="enter name" />
+            </div>
+            
+
+            <div class="form-group">
+              <label for="skill3">Skill 3</label>
+              <input type="text" name="skill3" placeholder="enter name" />
+            </div>
+            
+            
+
+            <div class="form-group">
+              <label for="skill4">Skill 4</label>
+              <input type="text" name="skill4" placeholder="enter name" />
+            </div>
+            
+            
+
+            <div class="form-group">
+              <label for="skill5">Skill 5</label>
+              <input type="text" name="skill5" placeholder="enter name" />
+            </div>
+            
+            
+
+            <div class="form-group">
+              <label for="skill6">Skill 6</label>
+              <input type="text" name="skill6" placeholder="enter name" />
+            </div>
+            <button  class="formbtn">Close Form</button>
+            
+            <!-- <button>Add Skill</button> -->
+            <!-- <button type="submit">Submit</button> -->
+          </form>
+          <!-- Skills ends -->
+
+          <!-- <form class="title ">
+            <div class="form-group">
+              <label for="title">Title</label>
+              <input type="text" name="title" placeholder="e.g  Experience" />
+            </div>
+    
+            <div class="form-group">
+              <label for="organisation">Organisation/Project Title</label>
+              <input type="text" name="organisation" placeholder="e.g OzoneAI" />
+            </div>
+    
+            <div class="form-group">
+              <label for="startyr">Start year</label>
+              <input type="text" name="startyr" placeholder="e.g 2001" />
+            </div>
+    
+            <div class="form-group">
+              <label for="endyr">End Year</label>
+              <input type="text" name="endyr" placeholder="e.g 2005" />
+            </div>
+
+             <button>Delete Block</button>
+
+             <div class="form-group">
+              <label for="title">Title</label>
+              <input type="text" name="title" placeholder="e.g  Experience" />
+            </div>
+    
+            <div class="form-group">
+              <label for="organisation">Organisation/Project Title</label>
+              <input type="text" name="organisation" placeholder="e.g OzoneAI" />
+            </div>
+            
+    
+            <div class="form-group">
+              <label for="startyr">Start year</label>
+              <input type="text" name="startyr" placeholder="e.g 2001" />
+            </div>
+    
+            <div class="form-group">
+              <label for="endyr">End Year</label>
+              <input type="text" name="endyr" placeholder="e.g 2005" />
+            </div>
+
+             <button>Delete Block</button>
+             <button>Add Block</button>
+            <button type="submit">Submit</button>
+          </form> -->
+          <!-- title ends -->
+        </div>
+        <!-- forms ends -->
+      </div>
+      <!-- Action Window ends -->
+      <div class="resume">
+        <div class="above">
+          <h4>Template</h4>
+          <h4>No. of Page:1</h4>
+        </div>
+
+        <div class="resumepage">
+          <div class="resumeheadingcontainer">
+            <div class="upload">
+              <div class="things">
+                <i class="fas fa-arrow-circle-up"></i>
+                <p>Upload</p>
+              </div>
+            </div>
+            <!-- uploads ends -->
+            <div class="writing">
+              <div class="designation">
+                <!-- <div class="desig"> -->
+                    <div>
+                      <div class="name" id="name">OLIVIA WILSON</div>
+                      <div class="jobrole" id="jobrole">SOFTWARE ENGINEER</div>
+                    </div>
+                  
+                <!-- </div> -->
+                <i class="fas fa-edit nameedit"></i>
+                
+              </div>
+              <!-- designation ends -->
+              <div class="description">
+                <p id="para">
+                  A python developer with 5.8 years of experience in
+                  Django.Flask for Retail eCommerce, PS and Storage domain.
+                </p>
+                <i class="fas fa-edit"></i>
+              </div>
+              <!-- description ends -->
+            </div>
+            <!-- writing ends -->
+          </div>
+          <!-- resumeheadingcontainer ends -->
+          <div class="resumecontainer">
+            <div class="column1">
+              <div class="contactInfo">
+                <h3><span>CONTACT INFO </span><i class="fas fa-edit"></i></h3>
+                <div class="location point">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <div id="address">Brooklyn, NY 11222</div>
+                </div>
+                <div class="email point">
+                  <i class="fas fa-envelope-open"></i>
+                  <div id="emailid">oliwit@email.net</div>
+                </div>
+                <div class="phone point">
+                  <i class="fas fa-phone"></i>
+                  <div id="number">804-931-9418</div>
+                </div>
+                <div class="git point">
+                  <i class="fas fa-link"></i>
+                  <div id="gitlink">github.com/oliwit</div>
+                </div>
+              </div>
+              <!-- contactInfo ends -->
+              <div class="education">
+                <h3><span>EDUCATION</span> <i class="fas fa-edit"></i></h3>
+
+                <div class="yr point">
+                  <div id="startyr">2018</div>
+                  <div class="hyphen">-</div>
+                  <div id="endyr">2019</div>
+                </div>
+                <div id="university" class="point">University of Pitsberg</div>
+                <div id="course" class="point">B.S in computer science</div><br>
+                
+                <div class="yr point">
+                  <div id="startyr1">2018</div>
+                  <div class="hyphen">-</div>
+                  <div id="endyr1">2019</div>
+                </div>
+                <div id="university1" class="point">University of Pitsberg</div>
+                <div id="course1" class="point">B.S in computer science</div>
+
+              </div>
+              <!-- education ends -->
+              <div class="skills">
+                <h3><span>SKILLS</span><i class="fas fa-edit"></i></h3>
+                <div id="skill1" class="point">Python</div>
+                <div id="skill2" class="point">Tensorflow</div>
+                <div id="skill3" class="point">keras</div>
+                <div id="skill4" class="point">Django</div>
+                <div id="skill5" class="point">MongoDB</div>
+                <div id="skill6" class="point">PostgreSQL</div>
+              </div>
+              <!-- skills ends -->
+            </div>
+            <!-- column1 ends -->
+            <div class="column2">
+              <div class="interest">
+                <h3><span>INTEREST</span><i class="fas fa-edit"></i></h3>
+                <ul class="point">
+                  <li id="interest1">lorem</li>
+                  <li id="interest2">lorem</li>
+                  <li id="interest3">lorem</li>
+                  <li id="interest4">lorem</li>
+                </ul>
+              </div>
+            </div>
+            
+            <!-- column2 ends -->
+          </div>
+         
+          <!-- resumecontainer ends -->
+          <button class="column2addbtn" >Add Block</button>
+        </div>
+        <!-- resumepage ends -->
+      </div>
+      <!-- resume ends -->
+    </div>
+
+    <div class="footer">
+      <div class="whiteoval"></div>
+      <div class="footercontainer">
+        <div class="left">
+       
+          <div class="logo">RESUME BUILDER</div>
+                     <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi
+                      perferendis tempore quidem quos!
+                     </p> 
+          </div>
+    
+          <div class="right">
+            <h3>Social links</h3>
+            <div class="socials">
+            <div class="social"><i class="fab fa-instagram-square"></i></div>
+            <div class="social"><i class="fab fa-youtube"></i></div>
+            <div class="social"><i class="fab fa-linkedin-in"></i></div>
+            </div>
+            
+          </div>
+      </div>
+      
+      
+      </p>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
